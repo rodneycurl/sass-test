@@ -1,7 +1,56 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 2, ../sass/screen.scss */
+body {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.4;
+  color: gray;
+}
+
+/* line 10, ../sass/screen.scss */
+.monospace {
+  font-family: Monaco, monospace;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* line 17, ../sass/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: black;
+}
+
+/* line 22, ../sass/screen.scss */
+.superscript {
+  top: -0.5em;
+}
+
+/* line 23, ../sass/screen.scss */
+.subscript {
+  bottom: -0.25em;
+}
+
+/* line 25, ../sass/screen.scss */
+.block-margins {
+  margin: 0.5rem 0 1rem;
+}
+
+/* line 29, ../sass/screen.scss */
+.blockquote {
+  border-left: 3px solid silver;
+  color: DeepPink;
+  padding-left: 1.5rem;
+  font-style: italic;
+}
+
+/* line 36, ../sass/screen.scss */
+.large-blockquote {
+  font-size: 1.3em;
+  line-height: 1.4;
+  margin: 2rem 0;
+}
+
 /* line 5, ../../../../.rvm/gems/ruby-2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
